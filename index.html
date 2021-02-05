@@ -5,80 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samuel Almao</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" type="image/png" href="/assets/images/icon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/images/icon.png" sizes="32x32">
 </head>
-<body>
-    <nav class="navbar">
-        <ul>
-            <li>
-                <a href="nav_item">lorem</a>
-            </li>
-            <li>
-                <a href="nav_item">lorem</a>
-            </li>
-            <li>
-                <a href="nav_item">lorem</a>
-            </li>
-            <li>
-                <a href="nav_item">lorem</a>
-            </li>
-            <li>
-                <a href="nav_item">lorem</a>
-            </li>
-        </ul>
-    </nav>
-<div class="content_area">
-    <section class="left_side">
-        <h1 class="title">Samuel Portfolio</h1>
-        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas illum explicabo asperiores, dicta esse dignissimos consequuntur corrupti rerum sit facere ipsam libero sint debitis minima placeat consectetur vitae ea neque doloribus mollitia atque saepe. Vero dolorem fugiat quasi quaerat laudantium distinctio amet, magni nesciunt ducimus, iste commodi doloremque consequatur nulla provident incidunt officia libero accusamus repellat? Voluptate, recusandae. Corrupti repellat sit veniam neque quibusdam natus dolores debitis voluptate accusamus, ut in aperiam qui, maiores itaque quos labore sed minus! Porro, nam rem magnam repellat placeat eveniet quisquam suscipit. Distinctio, odio quod unde aspernatur fuga tempore beatae sapiente dicta officia.</p>
+<body class="overflow-hidden w-100 m-0">
+<div class="grid grid-cols-3 gap-x-1 grid-flow-row">
+    <section class="col-span-1 bg-gray-900 text-white p-2 inline-grid grid-rows-auto gap-1 max-h-screen">
+        <img src="https://avatars.githubusercontent.com/u/57440278?s=400&u=ec3cf6cb557d62bfeaa104a8e48c641f8bccf0fa&v=4" alt="" class="transform scale-50  rounded-full bg-white p-2 row-span-1">
+        <h1 class="text-4xl font-bold text-center my-2">Samuel Almao</h1>
+        <p class="text-justify mx-2">Software developer in development. Data analysis enthusiast. Healthcare IT. Looking for new opportunities. </p>
+        <div>
+            <a href="https://github.com/SigmaSam"></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
     </section>
-    <section class="right_side">
-        <ul>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-            <li>
-                <h2>Lorem ipsum dolor sit amet.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
-            </li>
-        </ul>
+    <section class="col-span-2 overflow-auto h-screen project" id="project" >
+        <div class=" hover:bg-gray-900 hover:text-white">
+            <div class="small-container">
+                <h2 class="text-5xl font-bold text-center">Lorem Ipsum.</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
+            </div>
+            <div class="small-container">
+                <h2 class="text-5xl font-bold text-center">Lorem Ipsum.</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
+            </div><div class="small-container">
+                <h2 class="text-5xl font-bold text-center">Lorem Ipsum.</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
+            </div><div class="small-container">
+                <h2 class="text-5xl font-bold text-center">Lorem Ipsum.</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
+            </div><div class="small-container">
+                <h2 class="text-5xl font-bold text-center">Lorem Ipsum.</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
+            </div><div class="small-container">
+                <h2 class="text-5xl font-bold text-center">Lorem Ipsum.</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
+            </div><div class="small-container">
+                <h2 class="text-5xl font-bold text-center">Lorem Ipsum.</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
+            </div><div class="small-container">
+                <h2 class="text-5xl font-bold text-center">Lorem Ipsum.</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officia modi aperiam recusandae illum aut autem impedit animi sapiente quos!</p>
+            </div>
+        </div>
     </section>
 </div>
 </body>
